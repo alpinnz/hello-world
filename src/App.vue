@@ -2,9 +2,9 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <button onclick="goto({'type':'to','action':'nama routing'})">{'type':'to','action':'nama routing'}</button>
+    <button onclick="flutterChannel({'type':'to','action':'nama routing'})">{'type':'to','action':'nama routing'}</button>
     
-    <button onclick="goto({'string sajaaa'})">'string sajaaa'</button>
+    <button onclick="flutterChannel({'string sajaaa'})">'string sajaaa'</button>
   </div>
 </template>
 

@@ -19,14 +19,9 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
     <script>
-      function goto() {
-        TestDartCallback.postMessage("User Agent: ");
-        // TestDartCallback('kirim data yaaaa');
+      function goto(data) {
+        FlutterChannel.postMessage(data);
       }
-
-      window.goto = () => {
-        TestDartCallback.postMessage("User Agent: ");
-      };
     </script>
   </body>
 </html>

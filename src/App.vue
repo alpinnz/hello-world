@@ -3,7 +3,7 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <button onclick="flutterChannel({'type':'to','action':'nama routing'})">{'type':'to','action':'nama routing'}</button>
     
-    <button onclick="flutterChannel({'string sajaaa'})">'string sajaaa'</button>
+    <button onclick="flutterChannel('string sajaaa')">'string sajaaa'</button>
   </div>
 </template>
 

@@ -19,7 +19,8 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
     <script>
-      function flutterChannel(data) {
+      function flutterChannel(type, action) {
+        const data = JSON.stringify({ type, action });
         FlutterChannel.postMessage(data);
         console.log(data);
       }

@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <button onclick="flutterChannel({'type':'to','action':'nama routing'})">{'type':'to','action':'nama routing'}</button>
+    <button onclick="flutterChannel('to','nama routing')">flutterChannel('to','nama routing')</button>
     
-    <button onclick="flutterChannel('string sajaaa')">'string sajaaa'</button>
+    <button onclick="flutterChannel('string sajaaa')">flutterChannel('string sajaaa')</button>
   </div>
 </template>
 
